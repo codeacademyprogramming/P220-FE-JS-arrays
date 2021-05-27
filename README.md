@@ -19,7 +19,7 @@ Example reverse function
 ```js
   function reverse(arr) {
     const result = [];
-    for (let i = arr.length; i > 0; i--) {
+    for (let i = arr.length; i >= 0; i--) {
       result.push(arr[i]);
     }
     return result;
